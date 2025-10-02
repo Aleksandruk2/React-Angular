@@ -2,7 +2,9 @@ import './App.css';
 import {useState} from "react";
 import HomePage from "./pages/HemoPage";
 import BiographiaPage from "./pages/BiographiaPage";
-import Task2 from "./pages/Task2";
+import Task24 from "./pages/Task2-4";
+import Header from "./Components/Header";
+import RegisterPage from "./pages/RegisterPage";
 
 //Кожен компонент може мати свій стан
 //По суті ще як private у C#
@@ -22,19 +24,14 @@ function App() {
     console.log("Render App Component");
     return (
         <>
-            <h1>Привіт React {counter}</h1>
-            { counter >= 10 &&
-                <>
-                    <h2 style={{color: "red"}}>Бомба пішла в роботу</h2>
-                </>
-            }
-            <button onClick={handleClick}>Нажми мене {counter}</button>
+            <Header/>
+            <div className={"container mt-5"}>
+                <RegisterPage/>
+            </div>
 
-            <HomePage/>
-
-            <BiographiaPage/>
-
-            <Task2/>
+            <div className={"container mt-3"}>
+                <Task24/>
+            </div>
         </>
     );
 }
