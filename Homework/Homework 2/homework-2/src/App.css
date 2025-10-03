@@ -1,0 +1,71 @@
+
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: white;
+}
+
+.circleBtn {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: white 3px solid;
+    background: black;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.circleBtn:active {
+    opacity: 0.7;
+    box-shadow: 0 0 2px black;
+}
+
+/* Анімація з кастомним параметром */
+.rotate {
+    animation: spin 4s forwards;
+}
+
+
+.hideAnimation {
+    animation: hideValue 4s forwards;
+}
+
+@keyframes hideValue {
+    0% {opacity: 1;}
+    70% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+        background: yellow;
+    }
+    10% {
+        background: deepskyblue;
+    }
+    20% {
+        background: red;
+    }
+    30% {
+        background: limegreen;
+    }
+    40% {
+        background: darkorange;
+    }
+    50% {
+        background: mediumspringgreen;
+    }
+    60% {
+        background: deeppink;
+    }
+    75% {
+        transform: rotate(calc(360deg * var(--rotations))) scale(1.2); /* оберти та збільшення */
+        background: white;
+    }
+    100% {
+        transform: rotate(calc(360deg * var(--rotations))) scale(1);   /* повертаємося до початкового розміру */
+
+    }
+}
