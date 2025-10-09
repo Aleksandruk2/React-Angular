@@ -1,0 +1,18 @@
+.nav-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bg-image {
+    background-image: url("https://t3.ftcdn.net/jpg/02/04/69/00/360_F_204690037_aEFcF8RiqS95F8pJJp3q3Xk0fumRIAjj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 600px;
+}
+
+.font {
+    font-family: 'Papyrus', cursive;
+    font-size: 20px;
+}

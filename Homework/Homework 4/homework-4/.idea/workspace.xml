@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da17163e-7fea-4410-956b-c0911d450373" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/.idea/React-Engular.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/pages/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 1/my-app/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="33nQAweYK6AI3g5lZbmlZBKaee8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da17163e-7fea-4410-956b-c0911d450373" name="Changes" comment="" />
+      <created>1759950271089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759950271089</updated>
+      <workItem from="1759950310068" duration="17829000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
