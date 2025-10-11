@@ -1,0 +1,50 @@
+.my-box {
+    width: 24rem;
+    overflow: hidden;
+}
+.my-box-hei {
+    height: 28rem;
+    overflow: hidden;
+}
+
+.my-img {
+    width: 100%;
+}
+
+
+.animated-border {
+    --border-width: 5px;
+    --radius: 11px;
+    --speed: 4s;
+    --colors: linear-gradient(45deg, pink, blue, red);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    padding: var(--border-width);
+    border-radius: var(--radius);
+    z-index: 0;
+    overflow: hidden;
+    background: white;
+    color: black;
+}
+
+/* Псевдоелемент — генерує рухомий кольоровий шар */
+.animated-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;                  /* співпадає з радіусом контейнера */
+    padding: var(--border-width);            /* створюємо "рамку" внутрішнім відступом */
+    background: var(--colors);
+    background-size: 300% 300%;
+    z-index: -1;
+    animation: borderFlow var(--speed) linear infinite;
+}
+
+
+/* Анімація зміщення градієнта */
+@keyframes borderFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
