@@ -4,7 +4,7 @@ import Header from "./common/Header";
 import BiographyPage from "./pages/BiographyPage";
 import MostPopularPicturePage from "./pages/MostPopularPicturePage";
 import GalleryPicturePage from "./pages/GalleryPicturePage";
-import FormPage from "./FormPage";
+import FormPage from "./pages/FormPage";
 
 function App() {
     return (
