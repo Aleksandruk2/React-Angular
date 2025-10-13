@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {useSelector} from "react-redux";
+import Home from "./pages/HomePage/Home";
+import {Routes, Route} from "react-router-dom";
+import Header from "./common/Header/Header";
+import Events from "./pages/EventsPage/Events";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const counter =  useSelector(state => state.counter);
+
+    console.log('Global counter', counter);
+
+    return (
+        <>
+            <Routes>
+                <Route path={'/'} element={<Header/>}>
+                    <Route index element={<Home/>}/>
+                    <Route path={"events"} element={<Events/>}/>
+                </Route>
+            </Routes>
+        </>
+    );
 }
 
 export default App;
