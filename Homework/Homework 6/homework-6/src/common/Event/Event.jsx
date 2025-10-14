@@ -21,6 +21,7 @@ const Event = ({title = "", imgPath = "", date = "", artists = [], info = "", lo
                     </div>
                 </div>
                 <div className={'d-flex justify-content-end mb-1'}>
+                    <button onClick={(e) => console.log(`title: ${title}, date: ${date}, location: ${location}`)} className={'btn btn-warning fw-bold me-2 content-center'}> o </button>
                     <button onClick={() => dispatch(decrement())} className={'btn btn-danger fw-bold me-2 content-center'}> - </button>
                     <button onClick={() => dispatch(increment())} className={'btn btn-success fw-bold content-center'}> + </button>
                 </div>

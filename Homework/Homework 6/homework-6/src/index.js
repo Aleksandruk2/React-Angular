@@ -6,12 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {Provider} from "react-redux";
 import {BrowserRouter} from "react-router-dom";
-import {store} from "./app/store";
+import {store, storeEvent} from "./app/store";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-        <Provider store={store}>
+        <Provider store={store || storeEvent}>
             <App />
         </Provider>
     </BrowserRouter>

@@ -1,15 +1,26 @@
 import {useDispatch, useSelector} from "react-redux";
 import {decrement, increment, incrementByValue} from "../../features/counter/counterSlice";
 import {useState} from "react";
+import {add} from "../../features/eventList/eventListSlice";
 
 const CounterPage = () => {
 
     const counter = useSelector(state => state.counter);
 
+    const envetList = useSelector(state => state.eventList);
+
+
     const [formInput, setFormInput] = useState("");
 
     //Використовується для виклику actions - зміна state - глобально
     const dispatch = useDispatch();
+
+    const [data, setData] = useState(2);
+
+    const handleClick = () => {
+        console.log("e list",data, envetList);
+        dispatch(add(data));
+    }
 
     return (
         <>
@@ -29,6 +40,11 @@ const CounterPage = () => {
             <button onClick={() => dispatch(incrementByValue(Number(formInput)))}>
                 Врубай
             </button>
+
+            <div className={'container'}>
+                <h4>Event List: {envetList}</h4>
+                <button className={'btn btn-info'} onClick={() => handleClick()}>Add</button>
+            </div>
         </>
     )
 }
