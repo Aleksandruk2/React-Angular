@@ -11,7 +11,7 @@ import {store, storeEvent} from "./app/store";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-        <Provider store={store || storeEvent}>
+        <Provider store={ storeEvent}>
             <App />
         </Provider>
     </BrowserRouter>

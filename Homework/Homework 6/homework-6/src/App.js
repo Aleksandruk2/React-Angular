@@ -11,9 +11,9 @@ function App() {
     const eventList =  useSelector(state => state.eventList);
     const list = [];
 
-    console.log('Global counter', counter);
-    console.log('Global event list', eventList);
-    console.log('Global test', list);
+    // console.log('Global counter', counter);
+    // console.log('Global event list', eventList);
+    // console.log('Global test', list);
 
     return (
         <>

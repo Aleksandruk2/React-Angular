@@ -5,13 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb44633c-043e-40a3-9989-8930a712e2a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/features/eventList/eventListSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/EventMini/EventMini.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.idea/project-6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/Common/Event/Event.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/Common/Header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/app/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/features/counter/counterSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/pages/CounterPage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/pages/HomePage/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/pages/Task1/Task1.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Classwork/Project 6/project-6/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Event/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/counter/counterSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/eventList/eventListSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/eventList/eventListSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EventsPage/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EventsPage/Events.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +56,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -44,23 +78,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Skan Data\\Data Recovery 2025-06-12 at 14.23.00\\Partition2\\Александрук В\\WebStorm 2025.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.Event.jsx.executor": "Run",
+    "Node.js.EventMini.jsx.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "ts.external.directory.path": "C:\\Skan Data\\Data Recovery 2025-06-12 at 14.23.00\\Partition2\\Александрук В\\WebStorm 2025.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +114,10 @@
       <workItem from="1760375239659" duration="1459000" />
       <workItem from="1760377279619" duration="797000" />
       <workItem from="1760378293905" duration="12054000" />
-      <workItem from="1760432771712" duration="6180000" />
+      <workItem from="1760432771712" duration="6471000" />
+      <workItem from="1760462444018" duration="4630000" />
+      <workItem from="1760529913499" duration="8435000" />
+      <workItem from="1760544602590" duration="19199000" />
     </task>
     <servers />
   </component>

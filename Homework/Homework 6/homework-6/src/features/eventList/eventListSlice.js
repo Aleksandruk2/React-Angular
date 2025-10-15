@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 //Ця змінна задає початкове значення State - глобальний
 
 const initEventState = {
-    eventList: []
+    value: []
 };
 
 

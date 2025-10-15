@@ -1,10 +1,12 @@
 import Event from '../../common/Event/Event'
 
 const Events = () => {
+
     return (
         <>
             <div className={'d-flex flex-wrap p-2'}>
-                <Event title={"Музичний фестиваль 'SoundWave 2025'"}
+                <Event id={0}
+                       title={"Музичний фестиваль 'SoundWave 2025'"}
                        date={"2025-07-20"}
                        artists={[
                            "The Hard Beats, ",
@@ -17,14 +19,16 @@ const Events = () => {
                        location={"Київ, Парк Муромець"}
                        imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFN9F-RdSxVipJllx59v4xxdh-LHU_IocA5w&s"}
                 />
-                <Event title={"Rock Night Festival"}
+                <Event id={1}
+                       title={"Rock Night Festival"}
                        imgPath={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrmlJJPR90tJw0QPTWo4ESK_CT_S2PqeTYQ&s"}
                        date={"2025-08-14"}
                        artists={["The Rolling Beats, ", "Electric Pulse, ", "Luna Drive"]}
                        info={"Великий літній фестиваль року з найкращими рок-гуртами Європи. Енергія, світло, драйв і море емоцій!"}
                        location={"Київ, SkyArena"}
                 />
-                <Event title={"Jazz & Wine Evening"}
+                <Event id={2}
+                       title={"Jazz & Wine Evening"}
                        date={"2025-09-02"}
                        artists={["Smooth Jazz Quartet, ",
                            "Ella Simone"]}
