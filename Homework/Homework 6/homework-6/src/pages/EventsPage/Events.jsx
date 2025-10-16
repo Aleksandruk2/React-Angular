@@ -4,7 +4,10 @@ const Events = () => {
 
     return (
         <>
-            <div className={'d-flex flex-wrap p-2'}>
+            <div className={'bg-warning text-white pt-2 border-bottom border-dark border-2'}>
+                <h2 className={'text-center'}>Актуальні події</h2>
+            </div>
+            <div className={'d-flex flex-wrap mt-2 p-2'}>
                 <Event id={0}
                        title={"Музичний фестиваль 'SoundWave 2025'"}
                        date={"2025-07-20"}

@@ -24,3 +24,15 @@
     height: 170px;
     background: black;
 }
+
+.titleH {
+    height: 50px;
+}
+
+.img-hover {
+    transition: transform 0.4s ease;
+}
+.img-hover:hover {
+    transform: scale(1.05);
+}
+

@@ -1,7 +1,6 @@
 import {useDispatch, useSelector} from "react-redux";
 import {add, removeById} from "../../features/eventList/eventListSlice";
 import {Heart} from 'lucide-react';
-import {useState} from "react";
 
 const Event = ({
                    id,
@@ -21,29 +20,13 @@ const Event = ({
 
 
     const handleClick = () => {
-        console.log("favorite", isFavorite);
         if (isFavorite) {
-            // let definitionId = 0;
-            // console.log("1st definitionId:",definitionId,"id:",id,"list:",eventList);
-            // eventList.forEach(item => {
-            //     console.log("item.id:",item.id,"id:",id);
-            //     if(Number (item.id === id)) {
-            //         console.log("open in iId:", item.id);
-            //         return -1;
-            //     } else {
-            //         definitionId += 1;
-            //     }
-            // });
             for (let i = 0; i < eventList.length; i+=1){
                 if(eventList[i].id === id){
                     dispatch(removeById(i));
                 }
             }
-
-            // console.log("2st definitionId:",definitionId,"id:",id,"list:",eventList);
-            // dispatch(removeById(definitionId));
         } else {
-            console.log("Open add");
             dispatch(add({
                 id,
                 title,
@@ -58,12 +41,14 @@ const Event = ({
 
     return (
         <>
-            <div className={'col-md-5 col-lg-3 mb-3 container-md shadow position-relative'}>
+            <div className={'bg-dark text-white col-md-5 col-lg-3 mb-3 pt-1 p-2 container-md shadow position-relative'}>
                 <h3>{title}</h3>
                 <div className={'d-md-block mb-5 justify-content-md-center d-flex border rounded'}>
-                    <div
-                        className={'border rounded bg-black shadow d-flex justify-content-md-center align-items-center m-1 '}>
-                        <img className={"rounded "} src={imgPath} width={'250px'} alt="..."/>
+                    <div className={'border overflow-hidden rounded bg-black shadow d-flex justify-content-md-center align-items-center m-1 '}>
+
+                        <a href={imgPath} data-lightbox={'gallery'} data-title={title}>
+                            <img className={"rounded img-hover"} src={imgPath} width={'250px'} alt="..."/>
+                        </a>
                     </div>
                     <div className={'p-1 '}>
                         <p className={'border-bottom border-dark border-opacity-50'}>Дата проведження: {date}</p>
@@ -73,7 +58,7 @@ const Event = ({
                         <p className={'border-bottom border-dark border-opacity-50'}>Про <b>{title}</b>: {info}</p>
                     </div>
                 </div>
-                <div className={'d-flex justify-content-end mt-auto mb-1 position-absolute pe-2 me-1 bottom-0 end-0'}>
+                <div className={'d-flex justify-content-end mb-1 position-absolute me-2 bottom-0 end-0'}>
                     <button onClick={() => handleClick()}
                             className={`fw-bold p-0 content-center ${isFavorite ? "active" : ""}`}>
                         <Heart size={25}/>

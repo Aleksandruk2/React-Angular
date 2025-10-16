@@ -5,8 +5,8 @@ import {Heart} from "lucide-react";
 const Header = () => {
     const eventList = useSelector(state => state.eventList);
 
-    const handleClick = () => {
-        console.log('entvents list:', eventList.value);
+    const hanleClick = (e) => {
+        console.log('target', e.target);
     }
 
     return (
@@ -18,26 +18,17 @@ const Header = () => {
                         <li className="nav-item "><NavLink className="nav-link mx-2" aria-current="page"
                                                            to="/">Головна сторінка</NavLink></li>
                         <li className="nav-item"><NavLink className="nav-link mx-2"
-                                                           to="/events">Події</NavLink></li>
+                                                          to="/events">Події</NavLink></li>
                     </div>
 
                     <div className={'position-absolute d-flex'}>
-                        <div className={''}>
-                            <div className={' d-flex justify-content-end'}>
-                                <div className={'bg-danger text-white fw-bold mx-2'}>
-                                    <Heart size={20}/>
-                                    <h6>{eventList.value.lenght}</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={''}>
-                            <div className={' d-flex justify-content-end'}>
-                                <button onClick={() => handleClick()} className={'btn btn-warning text-secondary fw-bold mx-2'}>console//</button>
+                        <div className={'d-flex justify-content-end'}>
+                            <div className={'d-flex justify-content-center align-content-center rounded p-2 bg-danger text-white fw-bold mx-2'}>
+                                <Heart size={20}/>
+                                <h6 className={'ms-2 m-0'}>{Number(eventList.value.length)}</h6>
                             </div>
                         </div>
                     </div>
-
-
                 </nav>
             </header>
 
