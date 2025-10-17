@@ -1,0 +1,11 @@
+.input-Hei {
+    height: 48.25px;
+}
+
+.mini-box{
+    background: black;
+    height: 8px;
+    width: 80px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
