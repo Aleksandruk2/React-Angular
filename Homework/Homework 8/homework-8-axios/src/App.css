@@ -1,0 +1,12 @@
+body {
+    padding-top: 49px;
+}
+
+.text-zone {
+    overflow: hidden;
+    height: 70px;
+}
+
+.img-zone {
+    height: 19.85rem;
+}
