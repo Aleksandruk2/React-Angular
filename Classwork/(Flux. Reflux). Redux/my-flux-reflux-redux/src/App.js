@@ -54,42 +54,43 @@ const App = () => {
             {/*        </li>*/}
             {/*            ))}*/}
             {/*</ul>*/}
+
             <div className={'container'}>
-                <div className={'mx-auto border col-5 mt-4 shadow fw-bold rounded bg-secondary p-2'}>
+                <div className={'cal mx-auto shadow border-2 border-secondary border mt-4 shadow fw-bold rounded p-2'}>
                     <div className={'d-flex justify-content-center'}>
                         <div className={'mini-box bg-dark rounded'}/>
                     </div>
                     <div>
-                        <h2 className={'text-end border bg-white rounded px-2'}>1 + 2</h2>
+                        <h2 className={'text-end bg-white rounded on-shadow px-2 p-1 fs-1'}>1 + 2</h2>
                     </div>
                     <div className={'p-2'}>
                         <div className={'row mb-1'}>
-                            <button className={'col-5 bg-danger p-0 m-auto rounded'}>C</button>
-                            <button className={'col-6 bg-warning p-0 m-auto rounded'}>x</button>
+                            <button className={'col bg-danger p-2 m-1 rounded fw-bold fs-2 text-white'}>C</button>
+                            <button className={'col bg-primary p-2 m-1 rounded fw-bold fs-2 text-white'}>x</button>
                         </div>
                         <div className={'row mb-1'}>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>1</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>2</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>3</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-info'}>+</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>1</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>2</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>3</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-info'}>+</button>
                         </div>
                         <div className={'row mb-1'}>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>4</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>5</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>6</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-info'}>-</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>4</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>5</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>6</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-info'}>-</button>
                         </div>
                         <div className={'row mb-1'}>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>7</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>8</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>9</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-info'}>*</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>7</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>8</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>9</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-info'}>*</button>
                         </div>
                         <div className={'row mb-1'}>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded'}>0</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-primary'}>.</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-primary'}>=</button>
-                            <button className={'col-3 my-btn-size p-0 m-auto rounded bg-info'}>/</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-dark'}>0</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-secondary'}>.</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-success'}>=</button>
+                            <button className={'col p-2 m-1 rounded fw-bold fs-2 text-white bg-info'}>/</button>
                         </div>
                     </div>
                 </div>

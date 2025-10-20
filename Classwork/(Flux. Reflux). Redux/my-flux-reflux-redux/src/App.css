@@ -1,9 +1,16 @@
-.my-btn-size {
-    width: 6vw;
-}
 
 .mini-box {
     width: 6vw;
     height: 1vw;
     margin-bottom: 6px;
+}
+
+.cal {
+    width: 420px;
+    height: 500px;
+    background: darkorange;
+}
+
+.on-shadow {
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.25);
 }
