@@ -7,9 +7,9 @@ import MovieCard from "./components/MovieCard/MovieCard";
 
 function App() {
 
-    const [movie, setMovie] = useState("Batman")
-    const [movies, setMovies] = useState([])
-    
+    const [movie, setMovie] = useState("The Batman");
+    const [movies, setMovies] = useState([]);
+
     const getMovies = async () => {
         try {
             const response = await axios.get("http://www.omdbapi.com/", {
@@ -20,7 +20,6 @@ function App() {
             });
 
             if(response.data.Response === "True") {
-                console.log("resp:",response);
                 setMovies(response.data.Search);
             } else {
                 console.log("error resp:",response.data.Error);
@@ -31,14 +30,8 @@ function App() {
         }
     }
 
-
-    useEffect(() => {
+    useEffect(( ) => {
         getMovies();
-    }, [movie]);
-
-    useEffect(() => {
-        console.log("movie:",movie);
-        console.log("movies:",movies);
     }, [movie]);
 
     const handleOnChange = (e) => {
@@ -47,13 +40,11 @@ function App() {
 
   return (
     <>
-        <Header onChange={handleOnChange}/>
+        <Header onChange={handleOnChange} resp={movies}/>
         <div className={'px-2 mt-1 d-flex flex-wrap'}>
             {movies.map((item, index) => (
                 <MovieCard key={index}
-                           imgPath={item.Poster}
-                           title={item.Title}
-                           year={item.Year}
+                           data={item.imdbID}
                 />
             ))}
         </div>
