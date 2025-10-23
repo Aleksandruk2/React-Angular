@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CategoryCreate } from './create';
-
 describe('Create', () => {
   let component: CategoryCreate;
   let fixture: ComponentFixture<CategoryCreate>;

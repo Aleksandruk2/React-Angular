@@ -17,7 +17,7 @@ export class CategoryService {
 
   createCategory(formData: FormData) {
 
-    return this.http.post(this.apiURL + "categories/create", formData);
+    return this.http.post(this.apiURL + "Categories/add", formData);
   }
 
   deleteCategory(id: number) {
