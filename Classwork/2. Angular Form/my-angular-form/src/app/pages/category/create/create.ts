@@ -26,10 +26,13 @@ export class CategoryCreate {
     this.categoryService.createCategory(form.value).subscribe({
       next: (response) => {
         console.log("Success", response);
+        this.categoryService.changeMessage(" ✅ Створеня нової категорії пройшло успішно!");
         this.router.navigate(['/category/home']);
       },
       error: (error) => {
         console.log("Error", error);
+        this.categoryService.changeMessage(" ❌ Під час створеня нової категорії стлася помилка 😥.");
+        this.router.navigate(['/category/home']);
       },
       complete: () => {
         console.log("Complete");

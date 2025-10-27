@@ -1,6 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs';
+import {BehaviorSubject, Observable} from 'rxjs';
 import {ICategory, ICategoryCreate} from '../models/Category';
 
 @Injectable({
@@ -10,6 +10,12 @@ import {ICategory, ICategoryCreate} from '../models/Category';
 export class CategoryService {
   private apiURL = "https://lohika.itstep.click/api/";
   constructor(private http: HttpClient) {}
+  private messageSource = new BehaviorSubject<string>('Вітаю на "Головній" сторінці 🏠');
+  currentMessage = this.messageSource.asObservable();
+
+  changeMessage(message: string) {
+    this.messageSource.next(message);
+  }
 
   getCategories() : Observable<ICategory[]> {
     return this.http.get<ICategory[]>(this.apiURL + "Categories/list");

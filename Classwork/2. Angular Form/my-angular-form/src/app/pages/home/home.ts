@@ -11,14 +11,30 @@ import {ICategory} from '../../models/Category';
 })
 export class Home  implements OnInit, OnDestroy {
 
+  message: string | null = "";
+  isModal = true;
+
   constructor(private categoryService : CategoryService) {}
 
   ngOnInit() {
-    console.log("✅ Компонент ініціалізувався (Home 🏠)", "Можу послати запит на сервер")
-
+    console.log("✅ Компонент ініціалізувався (Home 🏠)", "Можу працювати із сайтом")
+    this.categoryService.currentMessage.subscribe(msg => this.message = msg);
+    this.openModal();
   }
 
   ngOnDestroy() {
     console.log('❌ Компонент знищується');
+    this.openModal();
+  }
+
+  openModal() {
+    this.isModal = !this.isModal;
+  }
+
+  overTakeModal(event: MouseEvent) {
+    if (event.target === event.currentTarget)
+    {
+      this.isModal = !this.isModal;
+    }
   }
 }

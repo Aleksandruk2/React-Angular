@@ -133,3 +133,42 @@
   filter: blur(8px);
   transform: rotate(330deg);
 }
+
+.btn-cancel {
+  --modal-btn-color: rgba(165, 165, 165, 1);
+  --modal-btn-hover-color: rgba(255, 255, 255, 0.8);
+  --modal-btn-active-color: rgba(255, 255, 255, 1);
+  --modal-bg: rgba(0, 0, 0, 0.5);
+  --modal-active-bg: rgba(0, 0, 0, 0.2);
+  color: var(--modal-btn-color);
+  background: var(--modal-bg);
+  border: 1px var(--modal-btn-color) solid;
+  transition: all 0.1s ease-in;
+}
+
+.btn-cancel:hover {
+  transform: scale(1.02);
+  border: 1px var(--modal-btn-hover-color) solid;
+  color: var(--modal-btn-hover-color);
+}
+
+.btn-cancel:active {
+  border: 1px var(--modal-btn-active-color) solid;
+  color: var(--modal-btn-active-color);
+  background: var(--modal-active-bg);
+}
+
+.blur {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  height: 100%;
+}
+
+.top-40 {
+  top: 40%;
+}

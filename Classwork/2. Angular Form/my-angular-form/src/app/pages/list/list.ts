@@ -26,7 +26,7 @@ export class List implements OnInit {
   constructor(private categoryService : CategoryService) {}
 
   ngOnInit() {
-    console.log("✅ Компонент ініціалізувався (List 📃)", "Можу послати запит на сервер")
+    console.log("✅ Компонент ініціалізувався (List 📃)", "Можу переглянути список")
 
     this.categoryService.getCategories().subscribe({
       next: (response) => {
