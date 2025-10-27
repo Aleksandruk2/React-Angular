@@ -1,14 +1,14 @@
 export interface ICategory {
   id: number;
-  name: string;
+  title: string;
   image?: string;
-  slug: string;
+  urlSlug: string;
 }
 
 export interface ICategoryCreate {
   name: string;
   slug: string;
-  imageFile?: File | null;
+  image?: File | null;
 }
 
 export interface ICategoryEdit {

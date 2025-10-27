@@ -1,8 +1,144 @@
+/*!* From Uiverse.io by Yaya12085 *!*/
+/*.form-container {*/
+/*  width: 420px;*/
+/*  border-radius: 0.75rem;*/
+/*  background-color: rgba(17, 24, 39, 1);*/
+/*  padding: 2rem;*/
+/*  color: rgba(243, 244, 246, 1);*/
+/*}*/
+
+/*.title {*/
+/*  text-align: center;*/
+/*  font-size: 1.5rem;*/
+/*  line-height: 2rem;*/
+/*  font-weight: 700;*/
+/*}*/
+
+/*.form {*/
+/*  margin-top: 1.5rem;*/
+/*}*/
+
+/*.input-group {*/
+/*  margin-top: 0.25rem;*/
+/*  font-size: 0.875rem;*/
+/*  line-height: 1.25rem;*/
+/*}*/
+
+/*.input-group label {*/
+/*  display: block;*/
+/*  color: rgba(156, 163, 175, 1);*/
+/*  margin-bottom: 4px;*/
+/*}*/
+
+/*.input-group input {*/
+/*  width: 100%;*/
+/*  border-radius: 0.375rem;*/
+/*  border: 1px solid rgba(55, 65, 81, 1);*/
+/*  outline: 0;*/
+/*  background-color: rgba(17, 24, 39, 1);*/
+/*  padding: 0.75rem 1rem;*/
+/*  color: rgba(243, 244, 246, 1);*/
+/*}*/
+
+/*.input-group input:focus {*/
+/*  border-color: rgba(167, 139, 250);*/
+/*}*/
+
+/*.forgot {*/
+/*  display: flex;*/
+/*  justify-content: flex-end;*/
+/*  font-size: 0.75rem;*/
+/*  line-height: 1rem;*/
+/*  color: rgba(156, 163, 175,1);*/
+/*  margin: 8px 0 14px 0;*/
+/*}*/
+
+/*.forgot a,.signup a {*/
+/*  color: rgba(243, 244, 246, 1);*/
+/*  text-decoration: none;*/
+/*  font-size: 14px;*/
+/*}*/
+
+/*.forgot a:hover, .signup a:hover, .my-input-file:hover{*/
+/*  text-decoration: underline rgba(167, 139, 250, 0.8);*/
+/*}*/
+
+/*.sign {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  background-color: rgba(167, 139, 250, 1);*/
+/*  padding: 0.75rem;*/
+/*  text-align: center;*/
+/*  color: rgba(17, 24, 39, 1);*/
+/*  border: none;*/
+/*  border-radius: 0.375rem;*/
+/*  font-weight: 600;*/
+/*}*/
+
+/*.social-message {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  padding-top: 1rem;*/
+/*}*/
+
+/*.line {*/
+/*  height: 1px;*/
+/*  flex: 1 1 0%;*/
+/*  background-color: rgba(55, 65, 81, 1);*/
+/*}*/
+
+/*.social-message .message {*/
+/*  padding-left: 0.75rem;*/
+/*  padding-right: 0.75rem;*/
+/*  font-size: 0.875rem;*/
+/*  line-height: 1.25rem;*/
+/*  color: rgba(156, 163, 175, 1);*/
+/*}*/
+
+/*.social-icons {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.social-icons .icon {*/
+/*  border-radius: 0.125rem;*/
+/*  padding: 0.75rem;*/
+/*  border: none;*/
+/*  background-color: transparent;*/
+/*  margin-left: 8px;*/
+/*}*/
+
+/*.social-icons .icon svg {*/
+/*  height: 1.25rem;*/
+/*  width: 1.25rem;*/
+/*  fill: #fff;*/
+/*}*/
+
+/*.signup {*/
+/*  text-align: center;*/
+/*  font-size: 0.75rem;*/
+/*  line-height: 1rem;*/
+/*  color: rgba(156, 163, 175, 1);*/
+/*}*/
+
+/*.my-input-file::file-selector-button {*/
+/*  background-color: rgba(167, 139, 250, 1);*/
+/*  text-align: center;*/
+/*  color: rgba(17, 24, 39, 1);*/
+/*  border: none;*/
+/*  border-radius: 0.375rem;*/
+/*  font-weight: 600;*/
+/*  cursor: pointer;*/
+/*}*/
+
+
+
 /* From Uiverse.io by Yaya12085 */
 .form-container {
-  width: 420px;
+  margin-top: 20px;
+  width: 450px;
   border-radius: 0.75rem;
-  background-color: rgba(17, 24, 39, 1);
+  background: radial-gradient(ellipse , #1e2963 0%, #112133 73%);
   padding: 2rem;
   color: rgba(243, 244, 246, 1);
 }
@@ -35,83 +171,39 @@
   border-radius: 0.375rem;
   border: 1px solid rgba(55, 65, 81, 1);
   outline: 0;
-  background-color: rgba(17, 24, 39, 1);
+  background: radial-gradient(ellipse , #1e2963 0%, #112133 78%);
   padding: 0.75rem 1rem;
   color: rgba(243, 244, 246, 1);
 }
 
-.input-group input:focus {
-  border-color: rgba(167, 139, 250);
-}
-
-.forgot {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  color: rgba(156, 163, 175,1);
-  margin: 8px 0 14px 0;
-}
-
-.forgot a,.signup a {
-  color: rgba(243, 244, 246, 1);
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.forgot a:hover, .signup a:hover, .my-input-file:hover{
-  text-decoration: underline rgba(167, 139, 250, 0.8);
-}
-
 .sign {
+  --btn-color: rgba(255,255,255,0.6);
+  --btn-border-color: rgba(255,255,255,0);
+  --btn-color-hover: rgba(255,255,255,0.8);
+  --btn-bg-hover: rgb(135, 110, 211);
+  --btn-color-active: rgba(255,255,255,1);
+  --btn-bg-active: rgb(151, 124, 234);
   display: block;
   width: 100%;
-  background-color: rgba(167, 139, 250, 1);
+  background-color: rgb(123, 98, 200);
   padding: 0.75rem;
   text-align: center;
-  color: rgba(17, 24, 39, 1);
-  border: none;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-border-color);
   border-radius: 0.375rem;
   font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s linear;
 }
-
-.social-message {
-  display: flex;
-  align-items: center;
-  padding-top: 1rem;
+.sign:hover {
+  background-color: var(--btn-bg-hover);
+  border: 1px solid var(--btn-color-hover);
+  color: var(--btn-color-hover);
 }
-
-.line {
-  height: 1px;
-  flex: 1 1 0%;
-  background-color: rgba(55, 65, 81, 1);
-}
-
-.social-message .message {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: rgba(156, 163, 175, 1);
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.social-icons .icon {
-  border-radius: 0.125rem;
-  padding: 0.75rem;
-  border: none;
-  background-color: transparent;
-  margin-left: 8px;
-}
-
-.social-icons .icon svg {
-  height: 1.25rem;
-  width: 1.25rem;
-  fill: #fff;
+.sign:active {
+  background-color: var(--btn-bg-active);
+  border: 1px solid var(--btn-color-active);
+  color: var(--btn-color-active);
 }
 
 .signup {
@@ -121,13 +213,134 @@
   color: rgba(156, 163, 175, 1);
 }
 
-.my-input-file::file-selector-button {
-  background-color: rgba(167, 139, 250, 1);
-  text-align: center;
-  color: rgba(17, 24, 39, 1);
-  border: none;
-  border-radius: 0.375rem;
-  font-weight: 600;
-  cursor: pointer;
+/* From Uiverse.io by Yaya12085 */
+.container {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5px;
+  background-color: rgba(0, 110, 255, 0.041);
 }
 
+.header {
+  flex: 1;
+  width: 100%;
+  border: 2px dashed #A78BFAFF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header svg {
+  height: 100px;
+}
+
+.header p {
+  text-align: center;
+  color: #a5a5a5;
+}
+
+.footer {
+  --border-color: rgba(255,255,255,0);
+  --btn-color-hover: rgba(255,255,255,0.8);
+  --border-color-hover: #A78BFAFF;
+  --btn-color-active: rgba(255,255,255,1);
+  --bg-color-active: rgba(0, 110, 255, 0.175);
+  background-color: rgba(0, 110, 255, 0.075);
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #a5a5a5;
+  transition: all 0.2s linear;
+}
+
+.footer:hover {
+  border: 1px solid var(--border-color-hover);
+  color: var(--btn-color-hover);
+}
+.footer:active {
+  background-color: var(--bg-color-active);
+  color: var(--btn-color-active);
+}
+
+.footer svg {
+  height: 130%;
+  fill: #A78BFAFF;
+  background-color: rgba(70, 66, 66, 0.103);
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+}
+
+#file {
+  display: none;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 300px;
+  border-radius: 8px;
+  background-color: rgba(0, 110, 255, 0.041);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+  padding: 10px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  border: 2px dashed #A78BFAFF;
+  border-radius: 8px;
+  width: 100%;
+  display: block;
+  transition: filter 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  filter: brightness(60%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.trash-icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  padding: 8px;
+}

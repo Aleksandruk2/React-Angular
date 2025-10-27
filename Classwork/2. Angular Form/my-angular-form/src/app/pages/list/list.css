@@ -1,0 +1,154 @@
+.bg-card {
+  /*background-color: rgba(17, 24, 39, 1);*/
+  background: radial-gradient(ellipse , #1e2963 0%, #112133 73%);
+}
+
+.card.animate {
+  --rotate-count: 2deg;
+  animation: animate 0.7s ease-in;
+}
+
+@keyframes animate {
+  100% {
+    transform: scale(0) rotate(calc(360 * var(--rotate-count)));
+    opacity: 0;
+  }
+}
+
+.card:hover .my-btn-delete {
+  opacity: 1;
+}
+
+.my-btn-delete {
+  --btn-size: 2rem;
+  --btn-bg: rgba(0, 0, 0, 0.25);
+  --btn-bg-active: rgba(255, 255, 255, 0.05);
+  --btn-hover-color: rgba(255, 0, 0, 0.5);
+  --btn-active-color: rgba(255, 0, 0, 1);
+  background: var(--btn-bg);
+  width: var(--btn-size);
+  height: var(--btn-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: 1px transparent solid;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+  opacity: 0;
+}
+
+.my-btn-delete:hover {
+  transform: scale(1.05);
+  border: 1px var(--btn-hover-color) solid;
+  color: var(--btn-hover-color);
+}
+
+.my-btn-delete:active {
+  background: var(--btn-bg-active);
+  border: 1px var(--btn-active-color) solid;
+  color: var(--btn-active-color);
+}
+
+.top-5 {
+  top: 5%;
+}
+
+.top-40 {
+  top: 40%;
+}
+
+.img-box {
+  height: 200px;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.root-hover:hover {
+  .img-hover {
+    transform: scale(1.05);
+  }
+}
+
+.img-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 600px;
+}
+
+.text-box {
+  height: 3rem;
+}
+
+.border-top-dashed {
+  border-top: 1px rgba(13, 202, 240) dashed;
+}
+
+.my-backdrop {
+  transition: all 0.2s linear;
+}
+
+.blur {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  height: 100%;
+}
+
+.btn-cancel {
+  --modal-btn-color: rgba(165, 165, 165, 1);
+  --modal-btn-hover-color: rgba(255, 255, 255, 0.8);
+  --modal-btn-active-color: rgba(255, 255, 255, 1);
+  --modal-bg: rgba(0, 0, 0, 0.5);
+  --modal-active-bg: rgba(0, 0, 0, 0.2);
+  color: var(--modal-btn-color);
+  background: var(--modal-bg);
+  border: 1px var(--modal-btn-color) solid;
+  transition: all 0.1s ease-in;
+}
+
+.btn-cancel:hover {
+  transform: scale(1.02);
+  border: 1px var(--modal-btn-hover-color) solid;
+  color: var(--modal-btn-hover-color);
+}
+
+.btn-cancel:active {
+  border: 1px var(--modal-btn-active-color) solid;
+  color: var(--modal-btn-active-color);
+  background: var(--modal-active-bg);
+}
+
+.btn-delete {
+  --modal-btn-color: rgba(165, 165, 165, 1);
+  --modal-bg: rgba(0, 0, 0, 0.5);
+  --modal-btn-hover-color: rgba(255, 0, 0, 0.5);
+  --modal-btn-active-color: rgba(205, 0, 0, 1);
+  --modal-active-bg: rgba(0, 0, 0, 0.2);
+  color: var(--modal-btn-color);
+  background: var(--modal-bg);
+  border: 1px var(--modal-btn-color) solid;
+}
+
+.btn-delete:hover {
+  transform: scale(1.02);
+  border: 1px var(--modal-btn-hover-color) solid;
+  color: var(--modal-btn-hover-color);
+}
+
+.btn-delete:active {
+  border: 1px var(--modal-btn-active-color) solid;
+  color: var(--modal-btn-active-color);
+  background: var(--modal-active-bg);
+}

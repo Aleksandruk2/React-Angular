@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import {Component, OnDestroy, OnInit, signal} from '@angular/core';
 import {RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
@@ -7,6 +7,17 @@ import {RouterLink, RouterOutlet} from '@angular/router';
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
-export class App {
+export class App implements OnInit, OnDestroy {
   protected readonly title = signal('my-angular-form');
+
+  ngOnDestroy() {
+    console.log('❌ Компонент знищується');
+  }
+
+  ngOnInit() {
+    console.log('✅ Компонент ініціалізувався');
+  }
+
+
+
 }

@@ -1,4 +1,4 @@
 main {
-  background: rgb(25, 36, 55);
+  background: radial-gradient(circle , #28326e 0%, #12273e 73%);
   padding-top: 3.5rem;
 }

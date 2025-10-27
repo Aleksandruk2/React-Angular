@@ -12,7 +12,7 @@ export class CategoryService {
   constructor(private http: HttpClient) {}
 
   getCategories() : Observable<ICategory[]> {
-    return this.http.get<ICategory[]>(this.apiURL + "categories/list");
+    return this.http.get<ICategory[]>(this.apiURL + "Categories/list");
   }
 
   createCategory(formData: FormData) {
@@ -22,9 +22,8 @@ export class CategoryService {
 
   deleteCategory(id: number) {
 
-    return this.http.delete(this.apiURL + "categories/delete/", {
-      body: { id }
-    });
+    return this.http.delete(this.apiURL + `Categories/delete/${id}`);
+
   }
 
   getCategoryBySlug(slug: string) : Observable<ICategory> {
