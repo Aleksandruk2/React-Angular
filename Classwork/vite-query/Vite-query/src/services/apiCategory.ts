@@ -1,4 +1,5 @@
-import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
+import {createApi} from "@reduxjs/toolkit/query/react";
+import {createBaseQuery} from "../utils/createBaseQuery.ts";
 
 
 export interface ICategoryItem {
@@ -6,11 +7,11 @@ export interface ICategoryItem {
     title: string;
 }
 
+
+
 export const apiCategory = createApi({
     reducerPath: "apiCategory",
-    baseQuery: fetchBaseQuery({
-        baseUrl: "https://lohika.itstep.click/api/categories",
-    }),
+    baseQuery: createBaseQuery("categories"),
     endpoints: (builder) => ({
         getCategories: builder.query<ICategoryItem[], void>({
             query: () => ({

@@ -1,5 +1,6 @@
 import './App.css'
 import {useGetCategoriesQuery} from "./services/apiCategory.ts";
+import RegisterForm from "./components/RegisterForm.tsx";
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
                     </div>
                 ))
             }
+
+            <RegisterForm></RegisterForm>
         </>
     )
 }
