@@ -1,0 +1,25 @@
+.blur {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    filter: blur(0px);
+    background: rgba(0,0,0,0.3);
+    transform: scale(0);
+    opacity: 0;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.blurOn {
+    filter: blur(20px);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.imgBox {
+    height: 150px;
+    width: 150px;
+}
+
+.my-card {
+    width: 400px;
+}
